@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>私の紅葉と草津温泉の旅</title>
+    <title>秋の紅葉と草津温泉の旅 (雨天時・川上庵プラン)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     
     <style>
-        /* Noto Sans JPを優先しつつ、Interも使えるように設定 */
         body {
             font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background-color: #f9fafb; /* bg-gray-50 */
+            background-color: #f_fbf7; /* bg-gray-50の微調整 */
         }
         
-        /* テーブルのレイアウトをスマホで見やすく調整 */
+        /* テーマカラーを「ダムの湖面（青緑）」に維持 */
+        .active-tab {
+            background-color: #0d9488; /* bg-teal-600 */
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
         th, td {
             vertical-align: top;
             padding: 12px 8px; /* p-3 sm:p-4 */
         }
         
-        /* スポット詳細欄の最小幅を確保 */
         td:last-child {
             min-width: 200px;
         }
 
-        /* リンクの改行設定 */
         a {
             word-break: break-all;
         }
@@ -39,346 +42,321 @@
     <div class="max-w-3xl mx-auto p-4 sm:p-6">
         
         <header class="text-center my-6 sm:my-8">
-            <h1 class="text-3xl sm:text-4xl font-bold text-orange-700">私の紅葉と草津温泉の旅</h1>
-            <p class="text-lg text-gray-600 mt-2">2025年11月上旬 1泊2日</p>
+            <h1 class="text-3xl sm:text-4xl font-bold text-teal-800">秋の紅葉と草津温泉の旅</h1>
+            <p class="text-lg text-teal-700 mt-2 font-semibold">【雨天時・川上庵プラン】</p>
+            <p class="text-base text-gray-600 mt-1">2025年11月上旬 1泊2日</p>
         </header>
 
-        <main class="space-y-8">
-            
-            <section class="bg-white rounded-xl shadow-lg overflow-hidden">
-                <h2 class="text-2xl sm:text-3xl font-bold text-white bg-orange-600 p-4 sm:p-5">
-                    1日目: 絶景SAと軽井沢 (共通)
-                </h2>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-sm sm:text-base">
-                        <thead class="bg-orange-100">
-                            <tr>
-                                <th class="w-20 sm:w-24 p-3 text-orange-800 font-semibold text-center">時間</th>
-                                <th class="p-3 text-orange-800 font-semibold text-left">スケジュール</th>
-                                <th class="p-3 text-orange-800 font-semibold text-left">スポット詳細</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-200">
-                            <tr>
-                                <td class="text-center font-semibold">8:00</td>
-                                <td>新富山宅 出発</td>
-                                <td class="text-gray-600">自宅を出発、安全運転で！</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">8:45</td>
-                                <td>黒部宅 到着<br><span class="text-xs font-normal">(約10分)</span></td>
-                                <td>
-                                    <p class="mb-2">黒部母をピックアップ。</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">8:55</td>
-                                <td>黒部宅 出発</td>
-                                <td class="text-gray-600">黒部ICより高速へ！</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">9:45</td>
-                                <td>【休憩1】米山SA (下り)<br><span class="text-xs font-normal">(約20分休憩)</span></td>
-                                <td>
-                                    <p class="mb-2">日本海と佐渡島を望む絶景SA。</p>
-                                    <a href="https://www.driveplaza.com/sapa/1080/1080266/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">米山SA（下り）施設概要</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">11:25</td>
-                                <td>【休憩2】東部湯の丸SA (下り)<br><span class="text-xs font-normal">(約20分休憩)</span></td>
-                                <td>
-                                    <p class="mb-2">浅間山麓の雄大な景色が見える高速のSA。</p>
-                                    <a href="https://www.driveplaza.com/sapa/1810/1810056/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">東部湯の丸SA（下り）施設概要</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">12:20</td>
-                                <td>軽井沢 ハルニレテラス 到着・ランチ<br><span class="text-xs font-normal">(滞在 約1時間20分)</span></td>
-                                <td>
-                                    <p class="mb-2">渓流沿いにおしゃれにランチ。</p>
-                                    <a href="https://www.hoshino-area.jp/harunireterrace/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">ハルニレテラス 公式サイト</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">13:40</td>
-                                <td>ハルニレテラス 出発</td>
-                                <td class="text-gray-600">雲場池へ移動（約10分）</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">13:50</td>
-                                <td>軽井沢 雲場池 散策<br><span class="text-xs font-normal">(滞在 約1時間)</span></td>
-                                <td>
-                                    <p class="mb-2">紅葉のハイライト。水面に映る景色をゆっくり散策。</p>
-                                    <a href="https://karuizawa-kankokyokai.jp/spot/23234/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">雲場池 軽井沢観光協会</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">14:50</td>
-                                <td>雲場池（軽井沢） 出発</td>
-                                <td class="text-gray-600">草津温泉へ（約1時間10分）</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">16:00</td>
-                                <td>「草津温泉 音雅」 到着・チェックイン</td>
-                                <td>
-                                    <p class="mb-2">お宿に到着です！</p>
-                                    <a href="https://onga.co.jp/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">草津温泉 音雅 公式サイト</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center font-semibold">19:30</td>
-                                <td>湯畑ライトアップ散策</td>
-                                <td>
-                                    <p class="mb-2">幻想的な湯畑を散策。</p>
-                                    <a href="https://www.kusatsu-onsen.ne.jp/kankou/1004.php" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">湯畑 草津温泉観光協会</a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-            
-            <section>
-                <h2 class="text-2xl sm:text-3xl font-bold text-center text-orange-700 mb-6">
-                    2日目: 選べる2つのランチプラン
-                </h2>
+        <nav class="flex justify-center mb-6 sm:mb-8 rounded-lg shadow-md" aria-label="日程を選択">
+            <button id="day1Button" class="w-1/2 py-3 px-4 sm:px-6 font-bold text-base sm:text-lg transition duration-300 ease-in-out rounded-l-lg active-tab" aria-selected="true">
+                1日目 (雨の八ッ場ダム・足湯)
+            </button>
+            <button id="day2Button" class="w-1/2 py-3 px-4 sm:px-6 font-bold text-base sm:text-lg transition duration-300 ease-in-out bg-white text-gray-600 rounded-r-lg" aria-selected="false">
+                2日目 (晴れの軽井沢・新そば)
+            </button>
+        </nav>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        <main>
+            <div id="day1Content" class="space-y-8">
+                
+                <section class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-white bg-teal-600 p-4 sm:p-5">
+                        1日目: 雨でも快適に「足湯とダム」
+                    </h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm sm:text-base">
+                            <thead class="bg-teal-100">
+                                <tr>
+                                    <th class="w-20 sm:w-24 p-3 text-teal-800 font-semibold text-center">時間</th>
+                                    <th class="p-3 text-teal-800 font-semibold text-left">スケジュール</th>
+                                    <th class="p-3 text-teal-800 font-semibold text-left">スポット紹介</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr>
+                                    <td class="text-center font-semibold">8:00</td>
+                                    <td>富山市豊田 出発</td>
+                                    <td class="text-gray-600">雨なので安全運転で！</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">8:45</td>
+                                    <td>道の駅COCO黒部 到着<br><span class="text-xs font-normal">(約10分)</span></td>
+                                    <td>
+                                        <p class="mb-2">お母様をピックアップ。</p>
+                                        <a href="https://www.koko-kurobe.jp/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">道の駅COCO黒部 公式サイト</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">8:55</td>
+                                    <td>道の駅COCO黒部 出発</td>
+                                    <td class="text-gray-600">黒部ICより高速へ！</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">9:45</td>
+                                    <td>【立寄1】米山SA (下り)<br><span class="text-xs font-normal">(約20分休憩)</span></td>
+                                    <td>
+                                        <p class="mb-2">雨ですが、休憩とワンちゃんのお散歩を。</p>
+                                        <a href="https://www.driveplaza.com/sapa/1080/1080266/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">米山SA（下り）施設概要</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">11:25</td>
+                                    <td>【立寄2】<b>東部湯の丸SA (下り)</b><br><b>【ランチ・散歩】</b><br><span class="text-xs font-normal">(滞在 約1時間)</span></td>
+                                    <td>
+                                        <p class="mb-2"><b>【雨天時プラン】</b><br>
+                                            ・<b>ランチ：</b>荻野屋運営のフードコートで、釜めしや温かいお蕎麦を交代制で。（味覚）<br>
+                                            ・<b>ワンワン散歩：</b>ドッグラン併設の緑地エリアで、交代で傘をさしてお散歩。
+                                        </p>
+                                        <a href="https://www.driveplaza.com/sapa/1810/1810056/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">東部湯の丸SA (下り) 施設概要</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">12:25</td>
+                                    <td>東部湯の丸SA 出発</td>
+                                    <td class="text-gray-600">碓氷軽井沢ICで降り、草津方面へ。</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">13:50</td>
+                                    <td>【立寄3】<b>道の駅 八ッ場ふるさと館</b><br><span class="text-xs font-normal">(滞在 約1時間)</span></td>
+                                    <td>
+                                        <p class="mb-2"><b>【雨天時プラン】</b><br>草津への道中で立ち寄り。<br>
+                                            ・<b>足湯：</b>屋根付きの無料足湯で温まります。（触覚）<br>
+                                            ・<b>景色：</b>雨に煙る「八ッ場ダム」の景色を展望台から。（視覚・聴覚）
+                                        </p>
+                                        <a href="https://yambamichinoeki.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">道の駅 八ッ場ふるさと館 公式サイト</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">14:50</td>
+                                    <td>八ッ場ふるさと館 出発</td>
+                                    <td class="text-gray-600">宿まですぐです。（約30分）</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">15:20</td>
+                                    <td>「草津温泉 音雅」 到着・チェックイン</td>
+                                    <td>
+                                        <p class="mb-2"><b>早めの到着</b><br>雨の中お疲れ様でした！名湯でゆっくり温まりましょう。</p>
+                                        <a href="https://onga.co.jp/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">草津温泉 音雅 公式サイト</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">19:30</td>
+                                    <td>湯畑ライトアップ散策</td>
+                                    <td>
+                                        <p class="mb-2">傘をさして。雨と湯けむりで幻想的な景色に。</p>
+                                        <a href="https://www.kusatsu-onsen.ne.jp/kankou/1004.php" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">湯畑 草津温泉観光協会</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <section class="bg-white rounded-xl shadow-lg p-4 sm:p-6 space-y-4">
+                    <h2 class="text-2xl font-bold text-teal-800 border-b border-gray-200 pb-2">
+                        1日目の概要
+                    </h2>
                     
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                        <h3 class="text-xl sm:text-2xl font-bold text-white bg-orange-600 p-4 sm:p-5">
-                            プランA: 草津名物ランチ
-                        </h3>
-                        <div class="overflow-x-auto">
-                            <table class="w-full text-sm sm:text-base">
-                                <thead class="bg-orange-100">
-                                    <tr>
-                                        <th class="w-20 sm:w-24 p-3 text-orange-800 font-semibold text-center">時間</th>
-                                        <th class="p-3 text-orange-800 font-semibold text-left">スケジュール</th>
-                                        <th class="p-3 text-orange-800 font-semibold text-left">スポット詳細</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="divide-y divide-gray-200">
-                                    <tr>
-                                        <td class="text-center font-semibold">8:00</td>
-                                        <td>朝食</td>
-                                        <td class="text-gray-600">（音雅にて）</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">9:00</td>
-                                        <td>チェックアウト</td>
-                                        <td class="text-gray-600">荷物をまとめて。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">9:15</td>
-                                        <td>西の河原公園 散策<br><span class="text-xs font-normal">(約1時間45分)</span></td>
-                                        <td>
-                                            <p class="mb-2">朝の澄んだ空気の中、紅葉と温泉の川を散策。</p>
-                                            <a href="https://www.kusatsu-onsen.ne.jp/sainokawara/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">西の河原公園 草津温泉観光協会</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">11:00</td>
-                                        <td>【ランチ】石臼挽蕎麦 三國家<br><span class="text-xs font-normal">(約1時間20分)</span></td>
-                                        <td>
-                                            <p class="mb-2">草津で人気の蕎麦店で**「三國ランチ」**。鶏天うどんもどうぞ。</p>
-                                            <a href="https://www.mikunisoba.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">石臼挽蕎麦 三國家 公式サイト</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">12:20</td>
-                                        <td>草津温泉 出発</td>
-                                        <td class="text-gray-600">お土産などこの時間までに。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">13:30</td>
-                                        <td>【休憩1】小布施PA (下り)<br><span class="text-xs font-normal">(約30分休憩)</span></td>
-                                        <td>
-                                            <p class="mb-2">**「栗の街」**小布施。ここで栗ソフトなどのスイーツタイム。</p>
-                                            <a href="https://www.driveplaza.com/sapa/1810/1810096/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">小布施PA（下り）施設概要</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">14:30</td>
-                                        <td>【休憩2】妙高SA (下り)<br><span class="text-xs font-normal">(約30分休憩)</span></td>
-                                        <td>
-                                            <p class="mb-2">妙高山の雄大な景色を望む絶景SA。</p>
-                                            <a href="https://www.driveplaza.com/sapa/1810/1810121/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">妙高SA（下り）施設概要</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">16:00</td>
-                                        <td>黒部宅 到着</td>
-                                        <td class="text-gray-600">（約10分）黒部母お見送り。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">16:10</td>
-                                        <td>黒部宅 出発</td>
-                                        <td class="text-gray-600">自宅へ。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">16:55</td>
-                                        <td>新富山宅 到着</td>
-                                        <td class="text-gray-600">お疲れ様でした！</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">🚗 1日目の立ち寄りスポット</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-1">
+                            <li><strong>米山SA (下り):</strong> 休憩</li>
+                            <li><strong>東部湯の丸SA (下り):</strong> ランチ・ワンワン散歩</li>
+                            <li><strong>道の駅 八ッ場ふるさと館:</strong> 屋根付き足湯・ダム見学</li>
+                        </ul>
                     </div>
 
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                        <h3 class="text-xl sm:text-2xl font-bold text-white bg-orange-600 p-4 sm:p-5">
-                            プランB: 小布施名物ランチ
-                        </h3>
-                        <div class="overflow-x-auto">
-                            <table class="w-full text-sm sm:text-base">
-                                <thead class="bg-orange-100">
-                                    <tr>
-                                        <th class="w-20 sm:w-24 p-3 text-orange-800 font-semibold text-center">時間</th>
-                                        <th class="p-3 text-orange-800 font-semibold text-left">スケジュール</th>
-                                        <th class="p-3 text-orange-800 font-semibold text-left">スポット詳細</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="divide-y divide-gray-200">
-                                    <tr>
-                                        <td class="text-center font-semibold">8:00</td>
-                                        <td>朝食</td>
-                                        <td class="text-gray-600">（音雅にて）</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">9:00</td>
-                                        <td>チェックアウト</td>
-                                        <td class="text-gray-600">忘れ物がないようご注意ください。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">9:15</td>
-                                        <td>西の河原公園 散策<br><span class="text-xs font-normal">(約1時間45分)</span></td>
-                                        <td>
-                                            <p class="mb-2">温泉が川のように流れる広大な公園。水面に映る紅葉をお散歩。</p>
-                                            <a href="https://www.kusatsu-onsen.ne.jp/sainokawara/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">西の河原公園 草津温泉観光協会</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">11:00</td>
-                                        <td>草津温泉 出発</td>
-                                        <td class="text-gray-600">お土産は午前中に。信州・小布施へ。（約1時間半）</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">12:30</td>
-                                        <td>【ランチ】竹風堂 小布施本店<br><span class="text-xs font-normal">(滞在 約1時間10分)</span></td>
-                                        <td>
-                                            <p class="mb-2">信州名物**「栗おこわ」**をいただきます！ **「三國ランチ」**で。</p>
-                                            <a href="https://chikufudo.com/shop/576/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">竹風堂 小布施本店 公式サイト</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">13:40</td>
-                                        <td>小布施 出発</td>
-                                        <td class="text-gray-600">小布施スマートICより高速へ。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">14:10</td>
-                                        <td>【休憩1】妙高SA (下り)<br><span class="text-xs font-normal">(約30分休憩)</span></td>
-                                        <td>
-                                            <p class="mb-2">妙高山の雄大な景色を望む絶景SA。</p>
-                                            <a href="https://www.driveplaza.com/sapa/1810/1810121/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">妙高SA（下り）施設概要</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">15:10</td>
-                                        <td>【休憩2】名立谷浜SA (上り)<br><span class="text-xs font-normal">(約15分休憩)</span></td>
-                                        <td>
-                                            <p class="mb-2">トイレ休憩。最後の立ち寄りです。</p>
-                                            <a href="https://www.driveplaza.com/sapa/1080/1080236/1/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">名立谷浜SA（上り）施設概要</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">15:55</td>
-                                        <td>黒部宅 到着</td>
-                                        <td class="text-gray-600">（約10分）黒部母お見送り。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">16:05</td>
-                                        <td>黒部宅 出発</td>
-                                        <td class="text-gray-600">自宅へ。</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center font-semibold">16:50</td>
-                                        <td>新富山宅 到着</td>
-                                        <td class="text-gray-600">お疲れ様でした！</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">☔ 1日目のポイント</h3>
+                        <p class="text-gray-700">
+                            雨でもワンちゃんが散歩できる緑地（東部湯の丸SA）を確保しつつ、人間は屋根付きの足湯（八ッ場）で温まる、快適さを重視したプランです。
+                        </p>
                     </div>
+                </section>
+            </div>
 
-                </div>
-            </section>
-
-            <section class="bg-white rounded-xl shadow-lg p-4 sm:p-6 space-y-4">
-                <h2 class="text-2xl font-bold text-orange-700 border-b border-gray-200 pb-2">
-                    旅の概要
-                </h2>
+            <div id="day2Content" class="space-y-8 hidden">
                 
-                <div class="bg-gray-50 p-4 rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-800 mb-2">🚗 立ち寄りSA/PAまとめ</h3>
-                    <p><strong>行き (共通):</strong></p>
-                    <ul class="list-disc list-inside ml-2 space-y-1">
-                        <li><strong>米山SA (下り):</strong> 日本海と佐渡島を望む絶景</li>
-                        <li><strong>東部湯の丸SA (下り):</strong> 浅間山麓の雄大な景色</li>
-                    </ul>
-                    <p class="mt-2"><strong>帰り (プランA):</strong></p>
-                    <ul class="list-disc list-inside ml-2 space-y-1">
-                        <li><strong>小布施PA (下り):</strong> 栗の街。栗ソフトがおすすめ</li>
-                        <li><strong>妙高SA (下り):</strong> 妙高山の雄大な景色</li>
-                    </ul>
-                    <p class="mt-2"><strong>帰り (プランB):</strong></p>
-                    <ul class="list-disc list-inside ml-2 space-y-1">
-                        <li><strong>妙高SA (下り):</strong> 妙高山の雄大な景色</li>
-                        <li><strong>名立谷浜SA (上り):</strong> 日本海（最後の休憩）</li>
-                    </ul>
-                </div>
-
-                <div class="bg-gray-50 p-4 rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-800 mb-2">🧳 持ち物リスト（ご参考）</h3>
-                    <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>着替え（1泊分）、防寒着（朝晩は冷えます）</li>
-                        <li>常備薬、保険証</li>
-                        <li>スマホフォン、充電器、カメラ</li>
-                        <li>タオル、ハンカチ</li>
-                        <li>（ワンちゃん用）リード、お水、ごはん、おやつ、トイレシーツ、毛布</li>
-                    </ul>
-                </div>
-                
-                <div class="bg-gray-50 p-4 rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-800 mb-2">🌟 プランA vs プランB 比較</h3>
-                    <div class="space-y-3">
-                        <div>
-                            <h4 class="font-semibold text-orange-700">プランA: 草津名物ランチ</h4>
-                            <p class="text-sm text-gray-700 pl-2">
-                                <strong>違い:</strong> 2日目のランチを草津温泉街の「三國家」で食べます。<br>
-                                <strong>おすすめ:</strong> 草津温泉エリアでの滞在時間を長く取りたい方向け。ランチ後にすぐ帰路につかず、小布施PAで「栗スイーツ」を楽しむ余裕があります。
-                            </p>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-orange-700">プランB: 小布施名物ランチ</h4>
-                            <p class="text-sm text-gray-700 pl-2">
-                                <strong>違い:</strong> 2日目の午前中に草津を出発し、長野県の小布施町まで移動して「竹風堂」で栗おこわランチを食べます。<br>
-                                <strong>おすすめ:</strong> 「草津」と「小布施」の2つの観光地をしっかり楽しみたい方向け。帰りのランチを豪華にしたい場合におすすめです。
-                            </p>
-                        </div>
+                <section class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-white bg-teal-600 p-4 sm:p-5">
+                        2日目: 晴れの軽井沢（新そばと紅葉）
+                    </h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm sm:text-base">
+                            <thead class="bg-teal-100">
+                                <tr>
+                                    <th class="w-20 sm:w-24 p-3 text-teal-800 font-semibold text-center">時間</th>
+                                    <th class="p-3 text-teal-800 font-semibold text-left">スケジュール</th>
+                                    <th class="p-3 text-teal-800 font-semibold text-left">スポット紹介</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr>
+                                    <td class="text-center font-semibold">8:00</td>
+                                    <td>朝食</td>
+                                    <td class="text-gray-600">（音雅にて）</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">9:00</td>
+                                    <td>チェックアウト</td>
+                                    <td class="text-gray-600">荷物をまとめます。</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">9:15</td>
+                                    <td>西の河原公園 散策<br><span class="text-xs font-normal">(約1時間15分)</span></td>
+                                    <td>
+                                        <p class="mb-2">朝の草津を散策。温泉が川のように流れる広大な公園です。</p>
+                                        <a href="https://www.kusatsu-onsen.ne.jp/sainokawara/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">西の河原公園 草津温泉観光協会</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">10:30</td>
+                                    <td>草津温泉 出発</td>
+                                    <td class="text-gray-600"><b>晴れの軽井沢へ移動！</b><br>（約1時間10分）</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">11:40</td>
+                                    <td>【移動】<b>軽井沢 川上庵</b><br><b>【ランチ】</b><br><span class="text-xs font-normal">(滞在 約1時間)</span></td>
+                                    <td>
+                                        <p class="mb-2"><b>【晴天プラン】</b><br>バランスを考え、パン屋ではなく信州の「新そば」を。<br>
+                                        旧軽井沢の洗練された雰囲気で、テラス席でワンちゃんと一緒に、秋の味覚（新そば・きのこ等）を楽しめます。
+                                        </p>
+                                        <a href="https://www.kawakamian.com/shops/karuizawa/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">軽井沢 川上庵 公式サイト</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">12:40</td>
+                                    <td>旧軽井沢 出発</td>
+                                    <td class="text-gray-600">雲場池へ（車ですぐ）</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">12:50</td>
+                                    <td>【移動】軽井沢 雲場池 散策<br><span class="text-xs font-normal">(滞在 約40分)</span></td>
+                                    <td>
+                                        <p class="mb-2"><b>【晴天プラン】</b><br>この旅のハイライト！晴天の下、最高の紅葉を楽しみましょう。</p>
+                                        <a href="https://karuizawa-kankokyokai.jp/spot/23234/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">雲場池 軽井沢観光協会</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">13:30</td>
+                                    <td>軽井沢 出発</td>
+                                    <td class="text-gray-600">碓氷軽井沢ICより高速へ。</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">14:20</td>
+                                    <td>【立寄1】東部湯の丸SA (下り)<br><span class="text-xs font-normal">(約20分休憩)</span></td>
+                                    <td>
+                                        <p class="mb-2">休憩。軽井沢から富山方面へ向かう「下り」線です。</p>
+                                        <a href="https://www.driveplaza.com/sapa/1810/1810056/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">東部湯の丸SA (下り) 施設概要</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">15:30</td>
+                                    <td>【立寄2】妙高SA (下り)<br><span class="text-xs font-normal">(約20分休憩)</span></td>
+                                    <td>
+                                        <p class="mb-2">妙高山の雄大な景色を楽しめる絶景SA。「下り」線です。</p>
+                                        <a href="https://www.driveplaza.com/sapa/1810/1810121/2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">妙高SA（下り）施設概要</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">17:00</td>
+                                    <td>道の駅COCO黒部 到着</td>
+                                    <td class="text-gray-600">（約10分）お母様お見送り。</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">17:10</td>
+                                    <td>道の駅COCO黒部 出発</td>
+                                    <td class="text-gray-600">富山へ。</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center font-semibold">17:45</td>
+                                    <td>富山市豊田 到着</td>
+                                    <td class="text-gray-600">お疲れ様でした！</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                </div>
+                </section>
 
-            </section>
+                <section class="bg-white rounded-xl shadow-lg p-4 sm:p-6 space-y-4">
+                    <h2 class="text-2xl font-bold text-teal-800 border-b border-gray-200 pb-2">
+                        2日目の概要
+                    </h2>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">🚗 2日目のSA/PA</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-1">
+                            <li><strong>東部湯の丸SA (下り):</strong> 休憩</li>
+                            <li><strong>妙高SA (下り):</strong> 妙高山の景色</li>
+                        </ul>
+                    </div>
 
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">☀️ 2日目のポイント</h3>
+                        <p class="text-gray-700">
+                            予報通り「晴れ」の軽井沢を満喫します！「川上庵」で秋の味覚「新そば」を楽しみ、その後「雲場池」で最高の紅葉散策を楽しむ、バランスの取れたプランです。
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">🧳 持ち物リスト（ご参考）</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-700">
+                            <li>着替え（1泊分）、防寒着（朝晩は冷えます）</li>
+                            <li>**雨具（傘、レインコート）** ※1日目用</li>
+                            <li>常備薬、保険証</li>
+                            <li>スマホフォン、充電器、カメラ</li>
+                            <li>タオル、ハンカチ（足湯用にも）</li>
+                            <li>（ワンちゃん用）リード、お水、ごはん、おやつ、トイレシーツ、毛布、**レインコート**</li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
         </main>
 
         <footer class="text-center mt-8 py-4 border-t border-gray-300">
-            <p class="text-sm text-gray-500">楽しいご旅行を！</p>
+            <p class="text-sm text-gray-500">天候に気をつけて、楽しいご旅行を！</p>
         </footer>
     </div>
-    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // IDをDay1/2に変更
+            const day1Button = document.getElementById('day1Button');
+            const day2Button = document.getElementById('day2Button');
+            const day1Content = document.getElementById('day1Content');
+            const day2Content = document.getElementById('day2Content');
+
+            day1Button.addEventListener('click', function () {
+                // コンテンツの表示切り替え
+                day1Content.classList.remove('hidden');
+                day2Content.classList.add('hidden');
+                
+                // ボタンのスタイル切り替え
+                day1Button.classList.add('active-tab');
+                day1Button.classList.remove('bg-white', 'text-gray-600');
+                day1Button.setAttribute('aria-selected', 'true');
+
+                day2Button.classList.remove('active-tab');
+                day2Button.classList.add('bg-white', 'text-gray-600');
+                day2Button.setAttribute('aria-selected', 'false');
+            });
+
+            day2Button.addEventListener('click', function () {
+                // コンテンツの表示切り替え
+                day1Content.classList.add('hidden');
+                day2Content.classList.remove('hidden');
+                
+                // ボタンのスタイル切り替え
+                day2Button.classList.add('active-tab');
+                day2Button.classList.remove('bg-white', 'text-gray-600');
+                day2Button.setAttribute('aria-selected', 'true');
+
+                day1Button.classList.remove('active-tab');
+                day1Button.classList.add('bg-white', 'text-gray-600');
+                day1Button.setAttribute('aria-selected', 'false');
+            });
+        });
+    </script>
 </body>
 </html>
